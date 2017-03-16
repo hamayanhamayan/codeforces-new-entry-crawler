@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<p>Got these rows from the database:</p>
+
+<table border>
+{% for n in names %}
+  <tr> 
+    <td> {{ n.id }} </td>
+    <td> {{ n.creationtime }} </td>
+    <td> {{ n.authorhandle }} </td>
+    <td> {{ n.title }} </td>
+  </tr>
+{% else %}
+{% endfor %}
+</table>
+
+{% endblock %}

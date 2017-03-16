@@ -1,6 +1,6 @@
 {
-  "name": "Start on Heroku: PHP",
-  "description": "A barebones PHP app that makes use of the Silex web framework",
+  "name": "Codeforces New Entry Crawler",
+  "description": "Codeforcesの新着エントリーのクローラー",
   "repository": "https://github.com/heroku/php-getting-started",
   "addons": []
 }
